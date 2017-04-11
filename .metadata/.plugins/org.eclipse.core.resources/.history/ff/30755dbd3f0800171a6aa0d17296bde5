@@ -1,0 +1,19 @@
+package com.test.main;
+
+import org.apache.xbean.spring.context.FileSystemXmlApplicationContext;
+import org.springframework.context.ApplicationContext;
+
+import com.test.jms.JmsMessageSender;
+
+public class DemoMain {
+
+
+	@SuppressWarnings("resource")
+	public static void main(String[] args) throws Exception {
+		ApplicationContext jmsContext = new FileSystemXmlApplicationContext("path/to/jmsContext.xml");
+		JmsMessageSender messageSender = (JmsMessageSender) jmsContext.getBean("simpleMessageSender");
+ 
+		messageSender.sendMessage("hello");
+	}
+}
+	

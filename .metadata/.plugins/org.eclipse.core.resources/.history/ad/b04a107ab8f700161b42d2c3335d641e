@@ -1,0 +1,12 @@
+package com.spring;
+
+public class Config {
+
+	@Bean(name="helloBean")
+	public Hello hello(){
+		
+		return new hello();
+	}
+	
+	
+}

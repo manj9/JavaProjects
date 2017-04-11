@@ -1,0 +1,47 @@
+package com.test.jms;
+
+import javax.jms.Destination;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.Session;
+
+import org.apache.activemq.command.ActiveMQQueue;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jms.core.JmsTemplate;
+import org.springframework.jms.core.MessageCreator;
+import org.springframework.stereotype.Service;
+
+@Service
+public class JmsMessageSender {
+
+	@Autowired
+	private JmsTemplate jmsTemplate;
+
+	public void send(final String text) {
+		this.jmsTemplate.send(new MessageCreator() {
+
+			public Message createMessage(Session session) throws JMSException {
+
+				Message msg = session.createTextMessage(text);
+				msg.setJMSReplyTo(new ActiveMQQueue("Recv2Send"));
+				return msg;
+			}
+		});
+	}
+
+	public void send(final Destination dest, final String text) {
+
+		this.jmsTemplate.send(dest, new MessageCreator() {
+
+			public Message createMessage(Session session) throws JMSException {
+
+				Message msg = session.createTextMessage(text);
+
+				return msg;
+			}
+
+		});
+
+	}
+
+}

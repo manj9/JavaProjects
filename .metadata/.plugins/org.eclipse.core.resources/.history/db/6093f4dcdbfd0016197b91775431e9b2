@@ -1,0 +1,5 @@
+package com.tek.bean;
+
+public class Student {
+
+}

@@ -1,0 +1,12 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+ 
+<beans>
+<bean id="id1" class="com.annotation.Categories" autowire="byType">
+<property name="name" value="Book"/>
+</bean>
+<bean id="Something" class="com.annotation.Book">
+<property name="bookname" value="Harry Potter"/>
+<property name="bookprice" value="$200"/>
+</bean>
+</beans>

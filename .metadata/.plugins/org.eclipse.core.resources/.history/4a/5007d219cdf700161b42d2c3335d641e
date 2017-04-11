@@ -1,0 +1,14 @@
+package com.test.beans;
+
+public class Dealer {
+	
+	Dealer delearID;
+	Dealer delearName;
+	public void setDelearID(Dealer delearID) {
+		this.delearID = delearID;
+	}
+	public void setDelearName(Dealer delearName) {
+		this.delearName = delearName;
+	}
+
+}

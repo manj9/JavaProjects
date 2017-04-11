@@ -1,0 +1,14 @@
+package com.cotroller;
+
+import com.bean.Student;
+
+public class MyController {
+
+	public Student getStudent(){
+		
+		Student s = new Student("1", "mj", "123");
+		return s;
+		
+	}
+	
+}

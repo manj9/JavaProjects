@@ -1,0 +1,17 @@
+package com.test.beans;
+
+public class Product {
+
+	String prodID;
+	String prodPrice;
+
+	public void setProdID(String prodID) {
+		this.prodID = prodID;
+	}
+
+	public void setProdPrice(String prodPrice) {
+		this.prodPrice = prodPrice;
+	}
+	
+	
+}

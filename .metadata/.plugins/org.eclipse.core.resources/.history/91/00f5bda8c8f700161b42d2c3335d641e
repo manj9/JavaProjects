@@ -1,0 +1,8 @@
+package com.test.beans;
+
+public class Dealer {
+	
+	String delearID;
+	String delearName;
+
+}

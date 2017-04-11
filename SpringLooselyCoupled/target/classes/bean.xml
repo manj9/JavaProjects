@@ -1,0 +1,11 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+<bean id="loosely" class="com.helper.InOutHelper">
+<property name="generator" ref="output"/>
+</bean>
+<bean id="input" class="com.servlet.loosely.GetIn"/>
+<bean id="output" class="com.servlet.loosely.GetOut"/>
+</beans>

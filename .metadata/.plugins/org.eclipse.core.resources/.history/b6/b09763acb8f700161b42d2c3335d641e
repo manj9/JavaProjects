@@ -1,0 +1,14 @@
+package com.spring;
+import org.springframework.context.annotation.Bean;
+
+
+public class Config {
+
+	@Bean(name="helloBean")
+	public Hello hello(){
+		
+		return new Hello2();
+	}
+	
+	
+}

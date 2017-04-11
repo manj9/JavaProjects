@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.task"/>
+			<item value="com.test"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="SpringCloudConfig"/>
+			<item value="7-SpringBootAngularJsDB"/>
+			<item value="6-SpringBootAngularJsUI"/>
+			<item value="RabbitMq"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="720" key="x"/>
+		<item value="71" key="y"/>
+		<item value="667" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="C:\Users\kunap\Desktop\StudentWebService"/>
+			<item value="F:\AngularJS_SpringBoot2"/>
+			<item value="F:\AngularJS_SpringBoot1"/>
+			<item value="C:\Users\kunap\Desktop\SpringBootAngularJs"/>
+			<item value="C:\Users\kunap\Desktop\rabbitmqsaveproduct"/>
+			<item value="C:\Users\kunap\Desktop\SpringMicroReceive"/>
+			<item value="F:\spring-boot-sample-activemq"/>
+			<item value="F:\Springproductmicro"/>
+			<item value="F:\Spring4AngularJS"/>
+			<item value="F:\SpringIn28Minutes-master\SpringIn28Minutes-master\6.ExamplesToUnderstandMore"/>
+			<item value="F:\DiscoveryService"/>
+			<item value="F:\StudentMicroService"/>
+			<item value="C:\Users\kunap\Downloads\SpringJDBCTransactionManagement"/>
+			<item value="C:\Users\kunap\Downloads\spring-boot-spring-data-jpa-example-application"/>
+			<item value="C:\Users\kunap\Downloads\5SpringBootJpa"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\kunap\Desktop\StudentWebService\src\main\java\com\test\controller\StudentController.java"/>
+			<item value="F:\Spring4AngularJS"/>
+			<item value="F:\WorkSpace\5-SpringMVCConfigAngularJs\src\main\java\com\test\bean\User.java"/>
+			<item value="F:\WorkSpace\2SpringMVCCRUD\src\main\java\com\test\dao\Dao.java"/>
+			<item value="F:\WorkSpace\2SpringMVCCRUD\src\main\java\com\test\controller\MyController.java"/>
+			<item value="F:\WorkSpace\4SpringBootwithJavaJPA\src\main\java\com\test\controller\MyController.java"/>
+			<item value="F:\WorkSpace\SpringMVC\src\main\webapp\WEB-INF\web.xml"/>
+			<item value="F:\WorkSpace\SampleSpring\src\main\java\com\test\controller\MyController.java"/>
+			<item value="F:\WorkSpace\SampleSpringExample\src\main\java\com\test\bean\Person.java"/>
+			<item value="F:\WorkSpace\SpringMVCAutoConfig\src\main\java\com\test\beans\Person.java"/>
+			<item value="F:\WorkSpace\SpringMVCAutoConfig\src\main\java\com\test\service\ServiceImpl.java"/>
+			<item value="F:\WorkSpace\SpringMVCAutoConfig\src\main\java\com\test\controller\MyController.java"/>
+			<item value="F:\SpringMvcJdbcTemplate\src\main\webapp\WEB-INF\web.xml"/>
+			<item value="F:\WorkSpace\StudentServlet\pom.xml"/>
+			<item value="F:\WorkSpace\JdbcSpring\src\main\java\com\DAO\JdbcCustomerDAO.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item value="995" key="width"/>
+		<item value="463" key="x"/>
+		<item value="215" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+</section>

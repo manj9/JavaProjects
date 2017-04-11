@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.spring.Kungfu&apos; to &apos;Panda&apos;&#x0D;&#x0A;- Original project: &apos;AutoDetectbyConstructor&apos;&#x0D;&#x0A;- Original element: &apos;com.spring.Kungfu&apos;&#x0D;&#x0A;- Renamed element: &apos;com.spring.Panda&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Kungfu&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.spring{Kungfu.java[Kungfu" matchStrategy="1" name="Panda" qualified="false" references="true" similarDeclarations="false" stamp="1487872663339" textual="false" version="1.0"/>
+</session>

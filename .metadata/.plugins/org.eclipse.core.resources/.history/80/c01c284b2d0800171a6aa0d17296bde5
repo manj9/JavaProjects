@@ -1,0 +1,17 @@
+package com.test.main;
+
+import org.apache.xbean.spring.context.ClassPathXmlApplicationContext;
+import org.springframework.context.ApplicationContext;
+
+public class DemoMain {
+
+	public static void main(String[] args) {
+		
+		    ApplicationContext ctx = new ClassPathXmlApplicationContext("app-context.xml");
+	
+	
+	}
+	
+	
+	
+}

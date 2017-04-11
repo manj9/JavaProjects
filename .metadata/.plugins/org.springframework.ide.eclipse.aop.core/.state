@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="SpringCloudConfig"/>
+<aop-project name="6-SpringBootAngularJsUI"/>
+<aop-project name="SpringCollections"/>
+<aop-project name="M4.StudentWebService"/>
+<aop-project name="SampleSpring"/>
+<aop-project name="SpringScopes"/>
+<aop-project name="SpringMVCAutoConfig"/>
+<aop-project name="SpringBootApp1"/>
+<aop-project name="SpringJMS"/>
+<aop-project name="JdbcSpring"/>
+<aop-project name="AngularJS_SpringBoot2"/>
+<aop-project name="SpringImport"/>
+<aop-project name="SpringList"/>
+<aop-project name="spring-boot-actuator-example"/>
+<aop-project name="SpringMVCAngularJS"/>
+<aop-project name="SpringMvcJdbcTemplate"/>
+<aop-project name="JdbcTemplateExample1"/>
+<aop-project name="AngularJS_SpringBoot1"/>
+<aop-project name="AutowiringQualifier"/>
+<aop-project name="AutoDetectbyConstructor"/>
+<aop-project name="02RabbitMq(SendNReceieve)"/>
+<aop-project name="4SpringBootJPA">
+<aspect-definition advice-class-name="com.test.hijack.Hijack" advice-method-name="saved" advice-type="BEFORE" aspect-end-line-number="9" aspect-name="hijack" aspect-start-line-number="9" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/4SpringBootJPA/src/main/java/com/test/hijack/Hijack.java" pointcut-expression="execution(* com.test.service.CarService.insert(..))" proxy-target-class="true">
+<aop-reference advice-type="BEFORE" bean="1:BeansModel|2:4SpringBootJPA|3:java:com.test.App|8:carService:14" bean-file="/4SpringBootJPA/src/main/java/com/test/service/CarService.java" bean-start-line="14" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/4SpringBootJPA/src/main/java/com/test/App.java" source="=4SpringBootJPA/src\/main\/java&lt;com.test.hijack{Hijack.java[Hijack~saved" source-start-line="12" target="=4SpringBootJPA/src\/main\/java&lt;com.test.service{CarService.java[CarService~insert~QCars;" target-start-line="27"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="M3.StudentMicroService"/>
+<aop-project name="M1.StudentMicroService"/>
+<aop-project name="7-SpringBootAngularJsDB"/>
+<aop-project name="InnerBean"/>
+<aop-project name="SpringConfigExample"/>
+<aop-project name="SpringMVC"/>
+<aop-project name="DIbySetter"/>
+<aop-project name="DibyConstructor"/>
+<aop-project name="LoginPage"/>
+<aop-project name="SampleSpringExample"/>
+<aop-project name="2AOPSpringMVCCRUD"/>
+<aop-project name="3SpringMVCConfig"/>
+<aop-project name="InjectProperties"/>
+<aop-project name="SimpleMVC"/>
+<aop-project name="1SpringJdbcTemplateCRUD"/>
+<aop-project name="DateSpring"/>
+<aop-project name="M2.DiscoveryService"/>
+<aop-project name="SpringBootCRUDApplicationExample"/>
+<aop-project name="SpringJDBCTransactionManagement">
+<aspect-definition advice-class-name="org.springframework.transaction.interceptor.TransactionInterceptor" advice-method-name="invoke" advice-method-parameter-types="org.aopalliance.intercept.MethodInvocation" advice-type="AROUND" aspect-end-line-number="11" aspect-name="org.springframework.transaction.interceptor.TransactionInterceptor#SpringJDBCTransactionManagement#src/main/resources/spring.xml#11" aspect-start-line-number="10" factory-id="org.springframework.ide.eclipse.aop.core.javaAdvisorDefinitionElementFactory" file="/SpringJDBCTransactionManagement/src/main/resources/spring.xml" pointcut-expression="(@within(org.springframework.transaction.annotation.Transactional) || @annotation(org.springframework.transaction.annotation.Transactional)) &amp;&amp; execution(* *..*(..))" proxy-target-class="true">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:SpringJDBCTransactionManagement|3:src/main/resources/spring.xml|7:beans:7|8:customerManager:34" bean-file="/SpringJDBCTransactionManagement/src/main/resources/spring.xml" bean-start-line="34" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/SpringJDBCTransactionManagement/src/main/resources/spring.xml" source="=SpringJDBCTransactionManagement/C:\/Users\/kunap\/.m2\/repository\/org\/springframework\/spring-tx\/4.0.2.RELEASE\/spring-tx-4.0.2.RELEASE.jar&lt;org.springframework.transaction.interceptor(TransactionInterceptor.class[TransactionInterceptor~invoke~Lorg.aopalliance.intercept.MethodInvocation;" source-start-line="-1" target="=SpringJDBCTransactionManagement/src\/main\/java&lt;com.journaldev.spring.jdbc.service{CustomerManagerImpl.java[CustomerManagerImpl~createCustomer~QCustomer;" target-start-line="17"/>
+</aspect-definition>
+</aop-project>
+<aop-project name="SpringJPA"/>
+</aop-reference-model>

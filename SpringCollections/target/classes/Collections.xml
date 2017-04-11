@@ -1,0 +1,20 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+	<bean id="Customer" class="com.coll.Collections">
+	<!-- Setting List values -->
+	<property name="lists">
+	<list>
+	<value>1</value>
+	<ref bean="PersonBean"/>
+	<bean class="com.coll.Person">
+	<property name="name" value="manj"/>
+	<property name="address" value="2203 wesley"/>
+	<property name="age" value="23"/>
+	</bean>
+	</list>
+	</property>
+	</bean>
+	<bean id="PersonBean" class="com.coll.Person"></bean>
+	</beans>

@@ -1,0 +1,38 @@
+package com.mvc.beans;
+
+public class Student {
+
+	Student name;
+	Student id;
+	Student city;
+	public Student getName() {
+		return name;
+	}
+	public void setName(Student name) {
+		this.name = name;
+	}
+	public Student getId() {
+		return id;
+	}
+	public void setId(Student id) {
+		this.id = id;
+	}
+	public Student getCity() {
+		return city;
+	}
+	public void setCity(Student city) {
+		this.city = city;
+	}
+	
+	public Student(Student name, Student id, Student city) {
+		super();
+		this.name = name;
+		this.id = id;
+		this.city = city;
+	}
+	@Override
+	public String toString() {
+		return "Student [name=" + name + ", id=" + id + ", city=" + city + "]";
+	}
+	
+}

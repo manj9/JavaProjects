@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;com.biz&apos; to &apos;SpringScopes/src/main/java&apos;&#x0D;&#x0A;- Original project: &apos;StudentServlet&apos;&#x0D;&#x0A;- Destination element: &apos;SpringScopes/src/main/java&apos;&#x0D;&#x0A;- Original element: &apos;StudentServlet/src/main/java/com.biz&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=SpringScopes/src\/main\/java" element1="/src\/main\/java&lt;com.biz" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1487729642992" version="1.0"/>
+</session>
